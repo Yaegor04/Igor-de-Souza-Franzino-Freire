@@ -1,0 +1,45 @@
+
+.quadrado { /*fundo Lilás*/
+    background-color: rgba(134, 114, 231, 0.551);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 360px;
+}
+.botao { /*botões*/
+
+    width: 85px;
+    padding: 8px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 114, 231);
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    user-select: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: inline-block;
+    margin: 30px 15px;
+    float: inline-end;
+    text-decoration: none;
+}
+.botao:hover{ /*ações sobre os botões*/
+
+    background-color: rgba(134, 114, 231, 0.751);
+    padding: 10px 12px;
+}
+body { /*fonte das letras de todo o site e determinando margem da página*/
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+p{ /*tamanho da fonte em parágrafos*/
+    font-size: 21px;
+}
+h1{ /*tamanho da fonte em títulos e centralização*/
+    text-align: center;
+    font-size: 55px;
+}
+blockquote{ /*tamanho da fonte dos textos*/
+    font-size: 25px;
+}
